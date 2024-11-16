@@ -1,2 +1,2 @@
-gcc -o zbsod.exe main.c -mwindows
-gcc -o zbib.exe second.c -mwindows
+gcc -o bin\zbsod.exe main.c -mwindows
+gcc -o bin\zbib.exe second.c -mwindows

@@ -16,5 +16,7 @@ void trybsod()
 int main()
 {
     trybsod();
+
+    
     return 0;
 }

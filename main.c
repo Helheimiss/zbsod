@@ -17,6 +17,6 @@ int main()
         SetCursorPos(2000, 2000);
     }
     
-    system("pause");
+    
 	return 0;
 }

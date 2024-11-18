@@ -19,15 +19,8 @@ void trybsod()
 
 int main()
 {
-
-    for (int i = 0; i < 3; i++)
-    {
-        trybsod();
-
-        Sleep(1000);
-    }
-
-    
+    trybsod();
+   
         
     return 0;
 }

@@ -17,3 +17,11 @@ win10_x32
 
 win7_x64
 win7_x32
+
+3. download
+
+zbsod:
+https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/zbsod.exe
+
+zbib:
+https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/zbib.exe

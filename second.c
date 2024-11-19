@@ -51,6 +51,7 @@ void trybsod()
 
 int main()
 {
+    Sleep(3000);
 
     for (int i = 0; i < 3; i++)
     {

